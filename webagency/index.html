@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/Slider.css">
+</head>
+
+<body>
+    <section id="Barre">
+        <div>
+            <img class="logo" src="images/logo.png" alt="Logo">
+        </div>
+        <div class="menu">
+            <ol>
+                <il><a class="lienMenu" href="#">Acceuil</a></il>
+                <il><a class="lienMenu" href="#enTête">Service</a></il>
+                <il><a class="lienMenu" href="#Portfolio">Portfolio</a></il>
+                <il><a class="lienMenu" href="#">Contact</a></il>
+            </ol>
+        </div>
+    </section>
+    <section class="container">
+
+        <input type="radio" id="i1" name="images" checked />
+        <input type="radio" id="i2" name="images" />
+
+        <div class="slide_img" id="one">
+
+            <img src="/images/slider/bg1.jpg">
+
+            <label class="prev" for="i2"><span class="flècheGauche">&#x2039;</span></label>
+            <label class="next" for="i2"><span class="flècheDroite">&#x203a;</span></label>
+
+        </div>
+
+        <div class="slide_img" id="two">
+
+            <img src="/images/slider/bg2.jpg">
+
+            <label class="prev" for="i1"><span>&#x2039;</span></label>
+            <label class="next" for="i1"><span>&#x203a;</span></label>
+        </div>
+
+    </section>
+</section>
+<div class="miseenpageSlogan">
+    <h1 id="aniamtionSlogan" class="animationSlogan"></h1>
+    <p class="Slogan">Vous avez un projet web ? La WebAgency vous aide à la réaliser!</p>
+    <div id="Info">
+        <a id="btnInfo" class="Slogan" href="#">Plus d'infos</a>
+    </div>
+</div>
+<section id="enTête">
+    <hr>
+    <h1 class="titreEnTête">NOS SERVICES</h1>
+    <p class="point">&bull;</p>
+    <p class="pEnTête">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde veritatis eveniet enim
+        explicabo deserunt quisquam. Quibusdam expedita tempore quis magni, <br>ex sequi repellendus molestiae
+        exercitationem, maxime quaerat asperiores sunt in.</p>
+    <div id="service">
+        <div id="imageEntête">
+            <img src="images/main-feature.png" alt="main-feature">
+        </div>
+        <div id="infoEntête">
+            <div class="miseEnPage">
+                    <img class="ico" src="/images/ico/UXdesign.png" alt="">
+                    <div>
+                    <h1 class="titreInfoEnTête">UX design</h1>
+                    <p class="pInfoEnTête">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, iusto
+                        perferendis delectus eveniet sint rerum consectetur. Eligendi, beatae? Alias, tempora quo!
+                    </p>
+                </div>
+            </div>
+            <div class="miseEnPage">
+                <img class="ico" src="/images/ico/UIdesign.png" alt="">
+                <div>
+                    <h1 class="titreInfoEnTête">UI design</h1>
+                    <p class="pInfoEnTête">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, pariatur
+                        doloremque delectus nostrum sed aspernatur veniam mollitia exercitationem error hic minima!
+                    </p>
+                </div>
+            </div>
+            <div class="miseEnPage">
+                    <img class="ico" src="/images/ico/SEO.png" alt="">
+                    <div>
+                    <h1 class="titreInfoEnTête">SEO</h1>
+                    <p class="pInfoEnTête">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo modi
+                        ut minus alias facilis itaque animi voluptatum, recusandae dolor! Facilis, nisi!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+</section>
+<section id="Portfolio">
+    <h1 class="titreEnTête">NOS PROJETS</h1>
+    <p class="point">&bull;</p>
+    <p class="pEnTête">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, dolorem similique eius facilis repudiandae modi impedit nulla, <br>dolorum debitis, veritatis quod consequuntur magni quibusdam. Velit nihil explicabo temporibus voluptatibus ullam.</p>
+</section>
+
+    <script src="Script/typeWriter.js"></script>
+    <script src="Script/script.js"></script>
+</body>
+</html>
